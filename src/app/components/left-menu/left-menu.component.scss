@@ -1,0 +1,28 @@
+.container__left-menu{
+    margin-top: 100px;
+    margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .left-menu__text{
+        font-size: 46px;
+        font-weight: 900;
+    }
+    .left-menu__desc{
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .left-menu__link{
+        display: inline-block;
+        position: absolute;
+        font-size: 1.5rem;
+        .orange-circle{
+            position: absolute;
+            z-index: -100; 
+            left: -10px;
+            bottom: -10px; 
+            width: 50px; 
+            height: 50px; 
+            background-color: orange; 
+            border-radius: 50%;
+        }
+    }
+}
